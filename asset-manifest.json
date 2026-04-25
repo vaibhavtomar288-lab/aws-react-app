@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "src/index.js",
+    "main.css": "src/index.css",
+    "html": "public/index.html",
+    "manifest": "public/manifest.json",
+    "robots": "public/robots.txt",
+    "favicon": "public/favicon.ico",
+    "logo192": "public/logo192.png",
+    "logo512": "public/logo512.png"
+  },
+  "entrypoints": [
+    "src/index.js",
+    "src/index.css"
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+build/
+.DS_Store
+.env
+.env.local
+.env.production.local
+public/favicon-64.png
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
