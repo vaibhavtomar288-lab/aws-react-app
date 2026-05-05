@@ -37,6 +37,4 @@ jobs:
         run: aws s3 sync build/ s3://aquarisorg --delete
 
       - name: Invalidate CloudFront cache
-        run: aws cloudfront create-invalidation \
-          --distribution-id  E15NPZTY7HNMVC \
-          --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id E15NPZTY7HNMVC --paths "/*"
